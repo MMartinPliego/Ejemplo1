@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Ejemplo1</string>
+    <string name="textobotonsumar">SUMAR NÚMEROS</string>
+    <string name="textonumero1">Introduzca el número uno:</string>
+    <string name="textonumero2">Introduzca el número dos:</string>
+    <string name="textoresultadosuma">El resultado es:</string>
+
 </resources>

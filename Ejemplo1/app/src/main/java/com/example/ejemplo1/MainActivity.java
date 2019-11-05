@@ -28,7 +28,4 @@ public class MainActivity extends AppCompatActivity {
         this.resultado.setText(Integer.toString(suma));
     }
 
-
-
-
 }

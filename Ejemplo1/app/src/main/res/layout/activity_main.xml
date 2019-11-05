@@ -19,7 +19,7 @@
             android:id="@+id/txvDatos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Introduzca el número uno:"
+            android:text="@string/textonumero1"
             android:textSize="18sp" />
 
         <EditText
@@ -33,7 +33,7 @@
             android:id="@+id/txvDatos2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Introduzca el número dos:"
+            android:text="@string/textonumero2"
             android:textSize="18sp" />
 
         <EditText
@@ -47,7 +47,8 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Resultado"
+            android:onClick="sumarNumeros"
+            android:text="@string/textobotonsumar"
             android:textSize="14sp"
             android:textStyle="bold" />
 
@@ -55,7 +56,7 @@
             android:id="@+id/txvDatos3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="El resultado es:"
+            android:text="@string/textoresultadosuma"
             android:textSize="18sp" />
 
         <EditText
